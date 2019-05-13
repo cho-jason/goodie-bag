@@ -10,7 +10,7 @@ class DisconnectedListALLCandies extends React.Component {
   render() {
     const candies = this.props.candies;
     return (
-      <div>
+      <div className="candy-list">
         {candies.map(candy => {
           return (
             <div key={candy.id}>
